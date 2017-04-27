@@ -6,11 +6,13 @@ p {
 div.yourName {
 	background-color: #4aaaa5;
 	width: 250px;
+	height: 50px;
 	margin-left: 20px;
 	color: white;
 	padding: 5px;
 	text-align: center;
-	size: x-large;
+	position: absolute;
+	bottom: 0;
 	margin-top: 21px;
 }
 div.container {
@@ -18,10 +20,18 @@ div.container {
 	border: 1px #cccccc;
 	margin-left: 50px;
 	background-color: #E1D7D7;
-	background-image: url(../images/ep_naturalblack.png);
+	background-image: url(../images/ep_naturalwhite.png);
 	padding: 0px;
-}
 
+}
+div.headshotLeft {
+	float: left;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+	clear: both;
+}
 div.mainHeader {
 	width: 960px;
 	border: 1px solid #cccccc;
@@ -29,10 +39,9 @@ div.mainHeader {
 	background-color: #ffffff;
 	height: 110px;
 	overflow: hidden;
+		position: relative;
 	margin-top: 20px;
-
 }
-
 div.footer {
 	width: 960px;
 	border-top: 5px solid #4aaaa5;
@@ -44,21 +53,17 @@ div.footer {
 	line-height: 50px;
 	font-size: small;
 }
-
 div.mainBody {
 	padding: 20px;
 	clear: both;
 	overflow: auto;
-	
 }
-
 div.contentHeader {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	font-size: x-large;
 	color: #4aaaa5;
 	border-bottom: 2px solid #4aaaa5;
 }
-
 div.mainContent {
 	background-color: #ffffff;
 	color: #777777;
@@ -68,14 +73,12 @@ div.mainContent {
 	float: left;
 	overflow: hidden;
 }
-
 div.sideBarHeader {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	font-size: large;
 	color: #4aaaa5;
 	border-bottom: 2px solid #4aaaa5;
 }
-
 div.sideBar {
 	background-color: #ffffff;
 	float: right;
@@ -84,9 +87,7 @@ div.sideBar {
 	padding: 20px;
 	border-bottom: 2px solid #4aaaa5;
 	margin-left: 50px;
-	
 }
-
 div.navBar {
 	background-color: #ffffff;
 	float: right;
@@ -95,5 +96,4 @@ div.navBar {
 	padding: 20px;
 	border-bottom: 2px solid #4aaaa5;
 	margin-left: 50px;
-	
 }
