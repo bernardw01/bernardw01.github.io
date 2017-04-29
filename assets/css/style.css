@@ -1,99 +1,162 @@
 body {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
-p {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-div.yourName {
-	background-color: #4aaaa5;
-	width: 250px;
-	height: 50px;
-	margin-left: 20px;
-	color: white;
-	padding: 5px;
-	text-align: center;
-	position: absolute;
-	bottom: 0;
-	margin-top: 21px;
-}
-div.container {
-	width: 960px;
-	border: 1px #cccccc;
-	margin-left: 50px;
-	background-color: #E1D7D7;
-	background-image: url(../images/ep_naturalwhite.png);
-	padding: 0px;
 
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+#contactLink {
+    height: 50px;
+    padding: 10px;
+}
+
+#navBarLink {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: small;
+    color: #cccccc;
+    padding: 5px;
+}
+
+#navBarLink:hover {
+    color: red;
+}
+
+.autoWidth {
+    width: 100%;
+}
+
+.txtArea {
+    width: 100%;
+    height: 70px;
+}
+
+span.navBar {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    padding: 5px;
+    float: right;
+}
+
+label {
+    text-align: left;
+    vertical-align: top;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+blockquote {
+    margin-left: 20px;
+    font-size: small;
+    font-style: italic;
+}
+
+div.yourName {
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 50px;
+    margin-left: 20px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin-top: 21px;
+}
+
+div.container {
+    width: 960px;
+    border: 1px #cccccc;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E1D7D7;
+    background-image: url(../images/ep_naturalwhite.png);
+    padding: 0px;
+}
+
 div.headshotLeft {
-	float: left;
-	padding-right: 20px;
-	padding-top: 10px;
-	padding-left: 0px;
-	padding-bottom: 10px;
-	clear: both;
+    float: left;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    clear: both;
 }
+
 div.mainHeader {
-	width: 960px;
-	border: 1px solid #cccccc;
-	margin-left: 0px;
-	background-color: #ffffff;
-	height: 110px;
-	overflow: hidden;
-		position: relative;
-	margin-top: 20px;
+    width: 960px;
+    border: 1px solid #cccccc;
+    margin-left: 0px;
+    background-color: #ffffff;
+    height: 110px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
 }
+
 div.footer {
-	width: 960px;
-	border-top: 5px solid #4aaaa5;
-	margin-left: 0px;
-	background-color: #666666;
-	height: 60px;
-	color: #ffffff;
-	text-align: center;
-	line-height: 50px;
-	font-size: small;
+    width: 960px;
+    border-top: 5px solid #4aaaa5;
+    margin-left: 0px;
+    background-color: #666666;
+    height: 60px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    font-size: small;
 }
+
 div.mainBody {
-	padding: 20px;
-	clear: both;
-	overflow: auto;
+    padding: 20px;
+    clear: both;
+    overflow: auto;
 }
+
 div.contentHeader {
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	font-size: x-large;
-	color: #4aaaa5;
-	border-bottom: 2px solid #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: x-large;
+    color: #4aaaa5;
+    border-bottom: 2px solid #4aaaa5;
 }
+
 div.mainContent {
-	background-color: #ffffff;
-	color: #777777;
-	width: 500px;
-	padding: 20px;
-	border-bottom: 2px solid #4aaaa5;
-	float: left;
-	overflow: hidden;
+    background-color: #ffffff;
+    color: #777777;
+    width: 500px;
+    padding: 20px;
+    border-bottom: 2px solid #4aaaa5;
+    float: left;
+    overflow: hidden;
 }
+
 div.sideBarHeader {
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	font-size: large;
-	color: #4aaaa5;
-	border-bottom: 2px solid #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: large;
+    color: #4aaaa5;
+    border-bottom: 2px solid #4aaaa5;
 }
+
 div.sideBar {
-	background-color: #ffffff;
-	float: right;
-	color: #777777;
-	width: 270px;
-	padding: 20px;
-	border-bottom: 2px solid #4aaaa5;
-	margin-left: 50px;
+    background-color: #ffffff;
+    float: right;
+    color: #777777;
+    width: 270px;
+    padding: 20px;
+    border-bottom: 2px solid #4aaaa5;
+    margin-left: 50px;
+    text-align: center;
 }
+
 div.navBar {
-	background-color: #ffffff;
-	float: right;
-	color: #777777;
-	width: 270px;
-	padding: 20px;
-	border-bottom: 2px solid #4aaaa5;
-	margin-left: 50px;
+    background-color: #ffffff;
+    float: right;
+    color: #777777;
+    width: 270px;
+    padding: 20px;
+    border-bottom: 2px solid #4aaaa5;
+    margin-left: 50px;
 }
