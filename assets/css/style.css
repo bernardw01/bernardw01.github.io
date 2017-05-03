@@ -17,6 +17,7 @@ body {
     /* bottom = footer height */
     padding: 0;
     border: 0;
+    line-height: 105%;
 }
 
 p {
