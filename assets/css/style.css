@@ -278,7 +278,7 @@ button:hover {
 
 @media screen and (max-width: 640px) {
     div.container {
-        width: 440px;
+        width: 430px;
         margin-left: 0;
         margin-right: 0;
     }
@@ -289,7 +289,7 @@ button:hover {
         height: 75px;
     }
     div.yourName {
-        width: 460px;
+        width: 430px;
         margin-left: auto;
         margin-right: auto;
         padding: 0;
@@ -315,19 +315,19 @@ button:hover {
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
-        width: 380px;
+        width: 370px;
         text-align: left;
     }
     div.mainBody {
         padding: 10px
     }
     div.mainContent {
-        width: 380px;
+        width: 370px;
         margin-left: auto;
         margin-right: auto;
     }
     div.footer {
-        width: 440px
+        width: 430px
     }
     div.headshotLeft {
         float: none;
