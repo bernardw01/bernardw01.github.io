@@ -278,8 +278,9 @@ button:hover {
 
 @media screen and (max-width: 640px) {
     div.container {
-        width: 460px;
+        width: 440px;
     }
+
     div.mainHeader {
         text-align: center;
         margin-top: 0px;
@@ -315,13 +316,16 @@ button:hover {
         width: 380px;
         text-align: left;
     }
+    div.mainBody {
+        padding: 10px
+    }
     div.mainContent {
         width: 380px;
         margin-left: auto;
         margin-right: auto;
     }
     div.footer {
-        width: 460px
+        width: 440px
     }
     div.headshotLeft {
         float: none;
